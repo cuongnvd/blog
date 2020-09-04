@@ -1,0 +1,147 @@
+
+.feelback {
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px rgba(0,0,0,0.1);
+}
+
+.feelback .row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.feelback .row:before {
+    display: table;
+    content: " ";
+}
+
+.feelback .img {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+
+.feelback .img img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.feelback .content {
+    padding-top: 25px;
+    position: relative;
+    text-align: justify;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.feelback .content:before {
+ 
+    position: absolute;
+
+    font-weight: 900;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    line-height: 28px;
+    color: #387b2b;
+}
+
+.feelback .content:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    border-bottom: solid 2px #387b2b;
+}
+
+.feelback .name {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #555555;
+}
+
+.feelback .time {
+    font-style: italic;
+    color: #999999;
+}
+
+
+.product{
+
+    padding: 15px;
+    padding-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.product .img a{
+        display: block;
+    padding-top: 80%;
+    position: relative;
+    overflow: hidden;
+}
+.product .img a img{
+        position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.product .img:hover img{
+     transform: scale(1.1);
+  transition: 1s;
+}
+.product .tend{
+        margin-bottom: 10px;
+}
+.product .tend h3{
+       font-size: 100%;
+    font-weight: bold;
+}
+.product .tend a{
+        display: block;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+/*    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;*/
+    overflow: hidden;
+    text-align: left;
+    text-decoration: none;
+    color: #555555;
+    margin-top: -8%;
+}
+.col-lg-12{
+	border-bottom: 2px solid #BDBDBD;
+
+}
+
+
+
+
+
+
+
+
+
+
+.col-lg-6 .logo{
+        width: 50px;
+    margin-right: 10px;
+    margin-top: -5px;
+    float: left;
+}
